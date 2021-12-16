@@ -1,5 +1,9 @@
 # CMSC320-Final-Tutorial
 
+## Contributors
+
+Sean Belke, Will Callan, Adam Gradess
+
 In which we do some data analysis on WCA data.  Some analysis ideas we have are:
 
 - Predicting single based on average (and more importantly, how strong the relationship is)
