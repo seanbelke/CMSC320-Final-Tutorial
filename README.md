@@ -6,7 +6,7 @@ Sean Belke, Will Callan, Adam Gradess
 
 ## Overview
 
-In which we do some data analysis on WCA data.  Some analysis ideas we have are:
+We're going to do some data analysis on WCA data.  Some analysis ideas we have are:
 
 - Predicting single based on average (and more importantly, how strong the relationship is)
 - Predicting country of residence based on relative placings in events.  For this one we want to explore if there really is any relationship between the events that someone competes in the most, or does the best in, and where they live.  For example, it seemed like (at least at one point), Skewb was popular among Polish cubers, but we want to try to quantify that observation.
