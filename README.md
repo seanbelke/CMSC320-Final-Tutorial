@@ -31,17 +31,3 @@ We would need a table with columns for CompetitorID, EventID, PBAverage, and PBS
 
 Notes: 
 - during EDA we realized that the relationship might not be fully linear.  When we look at the slope of the single vs. avg regression line for the fastest 200 competitors, it's less than the slope of the single vs. avg regression line for the top 100000 competitors.  This seems to suggest that there's an upward curve as we go higher, which isn't linear.  We can mention in our analysis that this is why we think it's not linear.
-
-For Sean on Friday: 
-- Clean up dataframe: 
-    - drop unused columns
-    - drop magic and master magic
-- Begin with 3x3-centric analysis.  
-    - random sample of entire dataset
-    - note how it looks really linear!
-    - could this be due to a large range of values relative to the residuals? 
-    - try a smaller range (e.g., sample from ranks 0-200 (then maybe 10-200, citing yusheng du as a reason to ignore the very top results), 1000-2000), and show that they look less "tight".
-    - run some regression hypothesis tests on the top solvers to see what kind of linear relationship we see there.  
-    - run the same regression hypothesis tests on the overall dataset to see what kind of linear relationship we see there.  
-    - talk about your hunch that it's not linear by comparing the slopes of the regression line for the top samples to the ones for the later samples.  
-    - add a quadratic term (?) here I'm getting confused.
